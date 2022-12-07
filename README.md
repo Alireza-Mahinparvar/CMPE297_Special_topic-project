@@ -19,10 +19,14 @@ This is the point where Singular Value Decomposition (SVD) comes to the rescue. 
 <b>Dataset</b>
 
 The “ratings” dataset which we have used in our project is from Kaggle. Due to the limited computing capacity, we have used a shortened version of the dataset which named as ratings_small.csv
-userid - a unique identifier for each user
-movieid - a unique identifier for each movie
-rating - rating of a movie given by a user
-timestamp - time at which this rating has been given
+
+* userid - a unique identifier for each user
+* movieid - a unique identifier for each movie
+* rating - rating of a movie given by a user
+* timestamp - time at which this rating has been given
+
+![image](https://user-images.githubusercontent.com/100038612/206073981-3aba0494-4bd5-4906-97c3-b8d9105b7bc3.png)
+
 
 
 

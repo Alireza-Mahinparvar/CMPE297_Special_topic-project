@@ -16,3 +16,13 @@ The rapid growth of data collection has led to a new era of information. Recomme
 This is the point where Singular Value Decomposition (SVD) comes to the rescue. SVD decreases the dimension of the utility matrix by extracting its latent factors. Essentially, we map each user and each item into a latent space with dimension r. Therefore, it helps us better understand the relationship between users and items as they become directly comparable.
 
 
+<b>Dataset</b>
+
+The “ratings” dataset which we have used in our project is from Kaggle. Due to the limited computing capacity, we have used a shortened version of the dataset which named as ratings_small.csv
+userid - a unique identifier for each user
+movieid - a unique identifier for each movie
+rating - rating of a movie given by a user
+timestamp - time at which this rating has been given
+
+
+

@@ -4,10 +4,10 @@
 
 ## Group Members
 
-Shanmukh Krishna                 - 016005743
-Alireza Mahinparvar              - 014295437
-Satya Sai Roopa Sree Chiluvuri   - 016005795
-Yashwanth Kumar Nelakuditi       - 015918604
+* Shanmukh Krishna                 - 016005743
+* Alireza Mahinparvar              - 014295437
+* Satya Sai Roopa Sree Chiluvuri   - 016005795
+* Yashwanth Kumar Nelakuditi       - 015918604
 
 <b>Project description</b>
 

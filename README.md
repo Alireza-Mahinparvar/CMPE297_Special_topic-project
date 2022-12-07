@@ -1,4 +1,4 @@
-# CMPE297 Special_topic-project
+# CMPE297 Special_topic - Project
 
 ## Collaborative Filtering - Singular Value Decomposition project
 
@@ -29,12 +29,12 @@ The “ratings” dataset which we have used in our project is from Kaggle. Due 
 ![image](https://user-images.githubusercontent.com/100038612/206074108-55ee463d-603e-417d-be60-213854217acf.png)
 
 
-### Workflow of the project
+
 
 ![image](https://user-images.githubusercontent.com/100038612/206075782-26753178-9746-4f90-b0f6-70cf8fc9e5d5.png)
 
 
-###Algorithms implemented
+### Algorithms implemented
 
 <b>Collaborative filtering:</b>
 
@@ -59,7 +59,8 @@ Item-based CF recommends items based on their similarity with the items that the
 ### SVD
 
 One way to handle these issues is to leverage a latent factor model to find similarities.
-SVD decreases the dimension of the utility matrix by extracting its latent factors. We map each user and each movie into a latent space with dimension r where they become directly comparable. 
+SVD decreases the dimension of the utility matrix by extracting its latent factors. We map each user and each movie into a latent space with dimension r where they become directly comparable.
+
 Singular Value Decomposition of an mxn complex matrix M is a factorization of the form 
                                                                                      M = UΣVT
 
@@ -86,10 +87,9 @@ Where the yj terms are a new set of item factors that capture implicit ratings. 
 
 To find the optimal parameter values from a given set of parameters in a grid, we used a cross validation technique, GridSearchCV.
 
-METRICS :
+<b>METRICS : </b>
 
 * Root Mean Square Error ( RMSE )  : It is frequently used to measure the differences between values predicted by a model and the values observed.
-
 * Mean Absolute Error ( MAE ) :  It measures the difference between the measured values and true values.
 
 We used RMSE  and MAE to measure the performance of the modes
@@ -99,12 +99,14 @@ We used RMSE  and MAE to measure the performance of the modes
 ![image](https://user-images.githubusercontent.com/100038612/206076823-7de88a41-ba55-424d-99e6-9b6bd408edd5.png)
 
 
+
+
 ![image](https://user-images.githubusercontent.com/100038612/206076869-45cdd285-895b-4823-a70b-3aee1694c965.png)
 
 
 ### Other Algorithms used
 
-     We also tried other algorithms such as KNNWithMeans, NMF,  BaselineOnly etc.,
+We also tried other algorithms such as KNNWithMeans, NMF,  BaselineOnly etc.,
 
 
 ![image](https://user-images.githubusercontent.com/100038612/206077134-2319194c-28ed-4d97-a0f0-1563b2ba7b2a.png)
@@ -112,7 +114,7 @@ We used RMSE  and MAE to measure the performance of the modes
 
 ### Conclusion
 
-In conclusion, we have  evaluated results by implementing various models such as SVD and SVD++ along with hyper parameter tuning to find the best predictor among them.
+In conclusion, we have evaluated results by implementing various models such as SVD and SVD++ along with hyper parameter tuning to find the best predictor among them.
 
 ### Future Scope
 
